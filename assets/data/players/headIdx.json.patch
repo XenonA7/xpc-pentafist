@@ -1,0 +1,13 @@
+[
+  {
+    "type": "ENTER",
+    "index": "headIdx"
+  },
+  {
+    "type": "ADD_ARRAY_ELEMENT",
+    "content": {
+      "id": "pentafist.pentafist4",
+      "img": "media/gui/severed-heads/pentafist4.png"
+    }
+  }
+]

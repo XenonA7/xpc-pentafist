@@ -1,0 +1,34 @@
+{
+	"id": "xpc-pentafist",
+	"version": "0.0.1",
+	"title": {
+		"en_US": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
+		"de_DE": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
+		"fr_FR": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
+		"zh_CN": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
+		"zh_TW": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
+		"ja_JP": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
+		"ko_KR": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]"
+	},
+	"description": {
+		"en_US": "WIP Pentafist, will be merged into XPC later.",
+		"de_DE": "WIP Pentafist, will be merged into XPC later.",
+		"fr_FR": "WIP Pentafist, will be merged into XPC later.",
+		"zh_CN": "WIP Pentafist, will be merged into XPC later.",
+		"zh_TW": "WIP Pentafist, will be merged into XPC later.",
+		"ja_JP": "WIP Pentafist, will be merged into XPC later.",
+		"ko_KR": "WIP Pentafist, will be merged into XPC later."
+	},
+	"icons": {
+		"24": "icon.png"
+	},
+	"repository": "https://github.com/XenonA7/xpc-pentafist",
+	"tags": ["player character"],
+	"authors": ["XenonA7", "HeartLychee"],
+	"prestart": "prestart.js",
+	"dependencies": {
+		"xenons-playable-classes": ">=3.5.4",
+		"extendable-severed-heads": ">=1.1.0",
+		"extension-asset-preloader": ">=1.0.0"
+	}
+}

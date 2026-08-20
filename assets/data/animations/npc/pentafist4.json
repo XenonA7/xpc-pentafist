@@ -1,0 +1,1443 @@
+{
+  "DOCTYPE": "MULTI_DIR_ANIMATION",
+  "namedSheets": {
+    "walk": {
+      "src": "media/entity/npc/pentafist4.png",
+      "xCount": 17,
+      "offX": 0,
+      "offY": 0,
+      "width": 32,
+      "height": 40
+    },
+    "battle": {
+      "src": "media/entity/npc/pentafist4.png",
+      "xCount": 17,
+      "offX": 0,
+      "offY": 200,
+      "width": 32,
+      "height": 40
+    },
+    "eating": {
+      "src": "media/entity/npc/pentafist4.png",
+      "xCount": 14,
+      "offX": 0,
+      "offY": 320,
+      "width": 32,
+      "height": 40
+    },
+    "levelUp": {
+      "src": "media/entity/npc/pentafist4.png",
+      "offX": 0,
+      "offY": 360,
+      "width": 32,
+      "height": 40
+    },
+    "crateChest": {
+      "src": "media/entity/npc/pentafist4.png",
+      "xCount": 11,
+      "offX": 0,
+      "offY": 400,
+      "width": 32,
+      "height": 40
+    },
+    "attack": {
+      "src": "media/entity/npc/pentafist4.png",
+      "xCount": 8,
+      "offX": 0,
+      "offY": 520,
+      "width": 32,
+      "height": 40
+    },
+    "attack2": {
+      "src": "media/entity/npc/pentafist4.png",
+      "xCount": 5,
+      "offX": 256,
+      "offY": 520,
+      "width": 32,
+      "height": 40
+    },
+    "poses": {
+      "src": "media/entity/npc/pentafist4.png",
+      "xCount": 14,
+      "offX": 0,
+      "offY": 680,
+      "width": 32,
+      "height": 40
+    },
+    "bigPunches48": {
+      "src": "media/entity/npc/pentafist4-48x48.png",
+      "xCount": 10,
+      "offX": 0,
+      "offY": 0,
+      "width": 48,
+      "height": 48
+    },
+    "shoryuken": {
+      "src": "media/entity/npc/pentafist4-48x48.png",
+      "xCount": 9,
+      "offX": 0,
+      "offY": 144,
+      "width": 48,
+      "height": 48
+    },
+    "airSpecial": {
+      "src": "media/entity/npc/pentafist4-48x48.png",
+      "xCount": 5,
+      "offX": 0,
+      "offY": 192,
+      "width": 48,
+      "height": 48
+    }
+  },
+  "shapeType": "Y_FLAT",
+  "offset": {
+    "x": 0,
+    "y": -4,
+    "z": 0
+  },
+  "SUB": [
+    {
+      "sheet": "walk",
+      "dirs": "8",
+      "flipX": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "tileOffsets": [
+        0,
+        17,
+        34,
+        51,
+        68,
+        51,
+        34,
+        17
+      ],
+      "SUB": [
+        {
+          "name": "idle",
+          "time": 1,
+          "repeat": false,
+          "frames": [
+            1
+          ]
+        },
+        {
+          "name": "walk",
+          "time": 0.133,
+          "repeat": true,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "name": "run",
+          "time": 0.08,
+          "repeat": true,
+          "frames": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "name": "jump",
+          "time": 0.0666,
+          "repeat": true,
+          "frames": [
+            9
+          ]
+        },
+        {
+          "name": "fall",
+          "time": 0.0666,
+          "repeat": true,
+          "frames": [
+            10
+          ]
+        },
+        {
+          "name": "hover",
+          "time": 0.2,
+          "repeat": true,
+          "frames": [
+            11,
+            12,
+            13,
+            12
+          ]
+        },
+        {
+          "name": "brake",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [
+            14,
+            15
+          ]
+        },
+        {
+          "name": "preIdle",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "battle",
+      "dirs": "6",
+      "flipX": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "tileOffsets": [
+        0,
+        17,
+        34,
+        34,
+        17,
+        0
+      ],
+      "SUB": [
+        {
+          "name": "aim",
+          "time": 0.1,
+          "repeat": true,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "aimMove",
+          "time": 0.1,
+          "repeat": true,
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "aimMoveRev",
+          "time": 0.1,
+          "repeat": true,
+          "frames": [
+            7,
+            6,
+            5,
+            4
+          ]
+        },
+        {
+          "name": "guard",
+          "time": 0.1,
+          "repeat": true,
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "name": "uppercutPre",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            12,
+            13
+          ]
+        },
+        {
+          "name": "uppercut",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            14
+          ]
+        },
+        {
+          "name": "damage",
+          "time": 0.07,
+          "repeat": true,
+          "frames": [
+            15,
+            15
+          ],
+          "framesGfxOffset": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "charge",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "eating",
+      "dirs": "1",
+      "flipX": [
+        0
+      ],
+      "tileOffsets": [
+        0
+      ],
+      "SUB": [
+        {
+          "name": "itemFetch",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "itemHold",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            2
+          ]
+        },
+        {
+          "name": "itemEatFast",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            3,
+            4,
+            5,
+            6,
+            5,
+            6,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "itemEatFastest",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            3,
+            4,
+            5,
+            6,
+            5,
+            6,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "itemEatSlow",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            3,
+            4,
+            5,
+            6,
+            5,
+            6,
+            5,
+            6,
+            5,
+            6,
+            5,
+            6,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "itemEffect",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "name": "itemEffectLoop",
+          "time": 0.07,
+          "repeat": true,
+          "frames": [
+            11,
+            12,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "levelUp",
+      "dirs": 1,
+      "flipX": [
+        0
+      ],
+      "tileOffsets": [
+        0
+      ],
+      "SUB": [
+        {
+          "name": "levelUpPre",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "levelUpStand",
+          "time": 0.09,
+          "repeat": true,
+          "frames": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "name": "levelUpPreJump",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            9,
+            10
+          ]
+        },
+        {
+          "name": "levelUpJump",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "crateChest",
+      "dirs": "4",
+      "flipX": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tileOffsets": [
+        0,
+        11,
+        22,
+        11
+      ],
+      "SUB": [
+        {
+          "name": "gripStand",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            0
+          ]
+        },
+        {
+          "name": "gripPush",
+          "time": 0.15,
+          "repeat": true,
+          "frames": [
+            1,
+            2,
+            3,
+            2
+          ]
+        },
+        {
+          "name": "gripPull",
+          "time": 0.15,
+          "repeat": true,
+          "frames": [
+            4,
+            5,
+            6,
+            5
+          ]
+        },
+        {
+          "name": "chestOpen",
+          "time": 0.08,
+          "repeat": false,
+          "frames": [
+            7,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "landOnGround",
+          "time": 0.07,
+          "repeat": false,
+          "frames": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "attack",
+      "dirs": "8",
+      "flipX": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tileOffsets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "anchorOffsetX": [
+        1,
+        15,
+        20,
+        16,
+        0,
+        -16,
+        -20,
+        -15
+      ],
+      "anchorOffsetY": [
+        -21,
+        -18,
+        -6,
+        4,
+        10,
+        4,
+        -6,
+        -18
+      ],
+      "anchorOffsetZ": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "SUB": [
+        {
+          "name": "spinFull",
+          "time": 0.03,
+          "repeat": true,
+          "dirFrames": [
+            [
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            [
+              1,
+              0,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2
+            ],
+            [
+              2,
+              1,
+              0,
+              7,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              3,
+              2,
+              1,
+              0,
+              7,
+              6,
+              5,
+              4
+            ],
+            [
+              4,
+              3,
+              2,
+              1,
+              0,
+              7,
+              6,
+              5
+            ],
+            [
+              5,
+              4,
+              3,
+              2,
+              1,
+              0,
+              7,
+              6
+            ],
+            [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1,
+              0,
+              7
+            ]
+          ]
+        },
+        {
+          "name": "spinFullFast",
+          "time": 0.015,
+          "repeat": true,
+          "dirFrames": [
+            [
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            [
+              1,
+              0,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2
+            ],
+            [
+              2,
+              1,
+              0,
+              7,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              3,
+              2,
+              1,
+              0,
+              7,
+              6,
+              5,
+              4
+            ],
+            [
+              4,
+              3,
+              2,
+              1,
+              0,
+              7,
+              6,
+              5
+            ],
+            [
+              5,
+              4,
+              3,
+              2,
+              1,
+              0,
+              7,
+              6
+            ],
+            [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1,
+              0,
+              7
+            ]
+          ]
+        },
+        {
+          "name": "spinShort",
+          "time": 0.03,
+          "repeat": false,
+          "dirFrames": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "attackEnd",
+          "time": 0.06,
+          "repeat": false,
+          "frames": [
+            8,
+            16,
+            24
+          ]
+        },
+        {
+          "flipX": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "tileOffsets": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "SUB": [
+            {
+              "name": "spinShortRev",
+              "time": 0.03,
+              "repeat": false,
+              "dirFrames": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  7
+                ],
+                [
+                  7,
+                  6
+                ],
+                [
+                  6,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  2
+                ]
+              ]
+            },
+            {
+              "name": "attackEndRev",
+              "time": 0.06,
+              "repeat": false,
+              "frames": [
+                8,
+                16,
+                24
+              ]
+            },
+            {
+              "name": "spinFullRev",
+              "time": 0.03,
+              "repeat": true,
+              "dirFrames": [
+                [
+                  7,
+                  6,
+                  5,
+                  4,
+                  3,
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  7,
+                  6,
+                  5,
+                  4,
+                  3,
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  5,
+                  4,
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6
+                ],
+                [
+                  4,
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5
+                ],
+                [
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5,
+                  4
+                ],
+                [
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5,
+                  4
+                ],
+                [
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5,
+                  4,
+                  3
+                ],
+                [
+                  0,
+                  7,
+                  6,
+                  5,
+                  4,
+                  3,
+                  2,
+                  1
+                ]
+              ]
+            },
+            {
+              "name": "spinFullFastRev",
+              "time": 0.015,
+              "repeat": true,
+              "dirFrames": [
+                [
+                  7,
+                  6,
+                  5,
+                  4,
+                  3,
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  7,
+                  6,
+                  5,
+                  4,
+                  3,
+                  2,
+                  1,
+                  0
+                ],
+                [
+                  5,
+                  4,
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6
+                ],
+                [
+                  4,
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5
+                ],
+                [
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5,
+                  4
+                ],
+                [
+                  3,
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5,
+                  4
+                ],
+                [
+                  2,
+                  1,
+                  0,
+                  7,
+                  6,
+                  5,
+                  4,
+                  3
+                ],
+                [
+                  0,
+                  7,
+                  6,
+                  5,
+                  4,
+                  3,
+                  2,
+                  1
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "attack2",
+      "dirs": "6",
+      "flipX": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "tileOffsets": [
+        0,
+        5,
+        10,
+        10,
+        5,
+        0
+      ],
+      "anchorOffsetX": [
+        12,
+        17,
+        10,
+        -10,
+        -17,
+        -12
+      ],
+      "anchorOffsetY": [
+        -31,
+        -9,
+        12,
+        12,
+        -9,
+        -31
+      ],
+      "anchorOffsetZ": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "SUB": [
+        {
+          "name": "specialDash",
+          "time": 0.1,
+          "repeat": true,
+          "frames": [
+            0
+          ]
+        },
+        {
+          "name": "specialHit",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "specialPost",
+          "time": 0.066,
+          "repeat": false,
+          "frames": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "poses",
+      "dirs": "2",
+      "flipX": [
+        0,
+        1
+      ],
+      "tileOffsets": [
+        0,
+        0
+      ],
+      "SUB": [
+        {
+          "name": "floatEyeClosed",
+          "time": 0.2,
+          "repeat": true,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "name": "flexPre",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "flex",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            8,
+            9
+          ]
+        },
+        {
+          "name": "floored",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            10
+          ]
+        },
+        {
+          "name": "specialFall",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            11,
+            12
+          ]
+        },
+        {
+          "name": "specialLand",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "bigPunches48",
+      "dirs": "6",
+      "flipX": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "tileOffsets": [
+        0,
+        10,
+        20,
+        20,
+        10,
+        0
+      ],
+      "SUB": [
+        {
+          "name": "bigPunchPre",
+          "time": 0.15,
+          "repeat": false,
+          "frames": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "dashShady",
+          "offset": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          },
+          "dirOffsets": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              6,
+              0
+            ],
+            [
+              -2,
+              6,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "time": 0.05,
+          "repeat": true,
+          "frames": [
+            2,
+            3
+          ]
+        },
+        {
+          "offset": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          },
+          "dirOffsets": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              6,
+              0
+            ],
+            [
+              -2,
+              6,
+              0
+            ],
+            [
+              -2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "SUB": [
+            {
+              "name": "bigPunch1",
+              "time": 0.05,
+              "repeat": false,
+              "frames": [
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "name": "bigPunch2",
+              "time": 0.05,
+              "repeat": false,
+              "frames": [
+                7,
+                8,
+                9
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "shoryuken",
+      "offset": {
+        "x": 0,
+        "y": 4,
+        "z": 4
+      },
+      "dirs": "2",
+      "flipX": [
+        0,
+        1
+      ],
+      "tileOffsets": [
+        0,
+        0
+      ],
+      "SUB": [
+        {
+          "name": "preShoryuken",
+          "time": 0.05,
+          "repeat": false,
+          "frames": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "startShoryuken",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            3
+          ]
+        },
+        {
+          "name": "shoryuken",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            4
+          ]
+        },
+        {
+          "name": "postShoryuken",
+          "time": 0.25,
+          "repeat": false,
+          "frames": [
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "airSpecial",
+      "dirs": "1",
+      "flipX": [
+        0
+      ],
+      "tileOffsets": [
+        0
+      ],
+      "SUB": [
+        {
+          "name": "specialSalto1",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            0
+          ]
+        },
+        {
+          "name": "specialSalto2",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            1
+          ]
+        },
+        {
+          "name": "specialSlamBlur",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            2
+          ]
+        },
+        {
+          "name": "specialSlam",
+          "time": 0.1,
+          "repeat": false,
+          "frames": [
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

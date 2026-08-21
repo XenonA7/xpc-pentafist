@@ -1,3 +1,6 @@
+## 0.0.2 (08/20/2026)
+- Updated spritesheet layout
+
 ## 0.0.1 (08/20/2026)
 - Initial Release
 - Player file created from Emilie2 with Big Punch Test added

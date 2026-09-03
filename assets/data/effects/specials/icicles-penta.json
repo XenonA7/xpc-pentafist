@@ -1,0 +1,350 @@
+{
+  "DOCTYPE": "EFFECT",
+  "ANIMS": {
+    "SUB": [
+      {
+        "name": "ENV_PENTA1_COLD",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 16,
+          "height": 16
+        },
+        "pivot": {
+          "x": 8,
+          "y": 8.75
+        },
+        "time": 0.05,
+        "repeat": false,
+        "frames": [
+          2
+        ],
+        "renderMode": "lighter",
+        "guiSprites": true
+      },
+      {
+        "name": "ENV_PENTA2_COLD",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 0,
+          "offY": 16,
+          "width": 16,
+          "height": 16
+        },
+        "pivot": {
+          "x": 8,
+          "y": 8.75
+        },
+        "time": 0.05,
+        "repeat": false,
+        "frames": [
+          2
+        ],
+        "renderMode": "lighter",
+        "guiSprites": true
+      },
+      {
+        "name": "COLD_BIG_PENTAGON",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/lighter-particle-big-pentagon.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 96,
+          "height": 96
+        },
+        "pivot": {
+          "x": 48,
+          "y": 49
+        },
+        "guiSprites": false,
+        "renderMode": "lighter",
+        "repeat": false,
+        "time": 0.4,
+        "frames": [
+          2
+        ]
+      },
+      {
+        "name": "COLD_BIG_PENTAGON_GUI",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/lighter-particle-big-pentagon.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 96,
+          "height": 96
+        },
+        "pivot": {
+          "x": 48,
+          "y": 49
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "repeat": false,
+        "time": 0.4,
+        "frames": [
+          2
+        ]
+      },
+      {
+        "name": "PENTAGON_COLD_FLAT",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 304,
+          "offY": 64,
+          "width": 32,
+          "height": 32
+        },
+        "renderMode": "lighter",
+        "time": 0.066,
+        "repeat": false,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "name": "PENTAGON_COLD",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 304,
+          "offY": 64,
+          "width": 32,
+          "height": 32
+        },
+        "renderMode": "lighter",
+        "time": 0.066,
+        "repeat": false,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "PENTAGON_COLD_LOOP",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 304,
+          "offY": 64,
+          "width": 32,
+          "height": 32
+        },
+        "renderMode": "lighter",
+        "time": 0.033,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "GOD_PENTAGON_COLD",
+        "pivot": {
+          "x": 48,
+          "y": 48
+        },
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 0,
+          "offY": 208,
+          "width": 96,
+          "height": 96
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.4,
+        "frames": [
+          2
+        ]
+      },
+      {
+        "name": "SWEEP_COLD",
+        "pivot": {
+          "x": 40,
+          "y": 32
+        },
+        "sheet": {
+          "src": "media/entity/effects/cold.png",
+          "xCount": 5,
+          "offX": 0,
+          "offY": 32,
+          "width": 64,
+          "height": 48
+        },
+        "guiSprites": true,
+        "time": 0.03,
+        "repeat": false,
+        "flipX": false,
+        "flipY": false,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          8,
+          8,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "SWEEP_COLD_INV",
+        "pivot": {
+          "x": 24,
+          "y": 32
+        },
+        "sheet": {
+          "src": "media/entity/effects/cold.png",
+          "xCount": 5,
+          "offX": 0,
+          "offY": 32,
+          "width": 64,
+          "height": 48
+        },
+        "guiSprites": true,
+        "time": 0.03,
+        "repeat": false,
+        "flipX": true,
+        "flipY": false,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          8,
+          8,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "BLUE_SPARKLE",
+        "sheet": {
+          "src": "media/entity/effects/starcaller/starcaller-misc.png",
+          "width": 8,
+          "height": 8,
+          "offX": 144,
+          "offY": 16
+        },
+        "time": 0.05,
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "frames": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "repeat": true
+      },
+      {
+        "name": "SNOWFLAKE1",
+        "sheet": {
+          "src": "media/entity/effects/particles1.png",
+          "offX": 224,
+          "offY": 32,
+          "width": 8,
+          "height": 8
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.05,
+        "repeat": false,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "name": "SNOW_BURST",
+        "sheet": {
+          "src": "media/entity/effects/hit2.png",
+          "offX": 0,
+          "offY": 80,
+          "width": 32,
+          "height": 32
+        },
+        "time": 0.06,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "SNOW_BURST_GUI",
+        "sheet": {
+          "src": "media/entity/effects/hit2.png",
+          "offX": 0,
+          "offY": 80,
+          "width": 32,
+          "height": 32
+        },
+        "guiSprites": true,
+        "time": 0.06,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "ICE_SHARD3",
+        "sheet": {
+          "src": "media/entity/effects/icicles.png",
+          "offX": 144,
+          "offY": 0,
+          "width": 16,
+          "height": 16
+        },
+        "frames": [
+          2
+        ]
+      },
+      {
+        "name": "ICE_SHARD6",
+        "sheet": {
+          "src": "media/entity/effects/icicles.png",
+          "offX": 144,
+          "offY": 0,
+          "width": 16,
+          "height": 16
+        },
+        "frames": [
+          5
+        ]
+      }
+    ]
+  },
+  "EFFECTS": {
+
+  }
+}

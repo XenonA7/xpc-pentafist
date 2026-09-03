@@ -1,0 +1,444 @@
+{
+  "DOCTYPE": "EFFECT",
+  "ANIMS": {
+    "SUB": [
+      {
+        "name": "ENV_PENTA1_SHOCK",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 16,
+          "height": 16
+        },
+        "pivot": {
+          "x": 8,
+          "y": 8.75
+        },
+        "time": 0.05,
+        "repeat": false,
+        "frames": [
+          3
+        ],
+        "renderMode": "lighter",
+        "guiSprites": true
+      },
+      {
+        "name": "ENV_PENTA2_SHOCK",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 0,
+          "offY": 16,
+          "width": 16,
+          "height": 16
+        },
+        "pivot": {
+          "x": 8,
+          "y": 8.75
+        },
+        "time": 0.05,
+        "repeat": false,
+        "frames": [
+          3
+        ],
+        "renderMode": "lighter",
+        "guiSprites": true
+      },
+      {
+        "name": "SHOCK_BIG_PENTAGON",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/lighter-particle-big-pentagon.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 96,
+          "height": 96
+        },
+        "pivot": {
+          "x": 48,
+          "y": 49
+        },
+        "guiSprites": false,
+        "renderMode": "lighter",
+        "repeat": false,
+        "time": 0.4,
+        "frames": [
+          3
+        ]
+      },
+      {
+        "name": "SHOCK_BIG_PENTAGON_GUI",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/lighter-particle-big-pentagon.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 96,
+          "height": 96
+        },
+        "pivot": {
+          "x": 48,
+          "y": 49
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "repeat": false,
+        "time": 0.4,
+        "frames": [
+          3
+        ]
+      },
+      {
+        "name": "PENTAGON_SHOCK_FLAT",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 304,
+          "offY": 96,
+          "width": 32,
+          "height": 32
+        },
+        "renderMode": "lighter",
+        "time": 0.066,
+        "repeat": false,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "name": "PENTAGON_SHOCK",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 304,
+          "offY": 96,
+          "width": 32,
+          "height": 32
+        },
+        "renderMode": "lighter",
+        "time": 0.066,
+        "repeat": false,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "PENTAGON_SHOCK_LOOP",
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 304,
+          "offY": 96,
+          "width": 32,
+          "height": 32
+        },
+        "renderMode": "lighter",
+        "time": 0.033,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "GOD_PENTAGON_SHOCK",
+        "pivot": {
+          "x": 48,
+          "y": 48
+        },
+        "sheet": {
+          "src": "media/entity/effects/pentafist/penta-misc.png",
+          "offX": 0,
+          "offY": 208,
+          "width": 96,
+          "height": 96
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.4,
+        "frames": [
+          3
+        ]
+      },
+      {
+        "name": "SWEEP_SHOCK",
+        "pivot": {
+          "x": 48,
+          "y": 28
+        },
+        "sheet": {
+          "src": "media/entity/effects/shock.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 64,
+          "height": 56
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.033,
+        "repeat": false,
+        "tileOffset": 0,
+        "frames": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "SWEEP_SHOCK_INV",
+        "pivot": {
+          "x": 16,
+          "y": 28
+        },
+        "sheet": {
+          "src": "media/entity/effects/shock.png",
+          "offX": 0,
+          "offY": 0,
+          "width": 64,
+          "height": 56
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.033,
+        "repeat": false,
+        "flipX": true,
+        "tileOffset": 0,
+        "frames": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "SHOCK_EXPLODE",
+        "sheet": {
+          "src": "media/entity/effects/shock.png",
+          "xCount": 5,
+          "offX": 0,
+          "offY": 56,
+          "width": 32,
+          "height": 32
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.033,
+        "repeat": false,
+        "tileOffset": 0,
+        "frames": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "name": "SHOCK_BALL_DOT2",
+        "sheet": {
+          "src": "media/entity/effects/particles1.png",
+          "xCount": 2,
+          "offX": 176,
+          "offY": 72,
+          "width": 8,
+          "height": 16
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.05,
+        "flipX": true,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "name": "SHOCK_DOT1",
+        "sheet": {
+          "src": "media/entity/effects/particles1.png",
+          "offX": 176,
+          "offY": 40,
+          "width": 8,
+          "height": 8
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.4,
+        "flipY": true,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "name": "SHOCK_DOT2",
+        "sheet": {
+          "src": "media/entity/effects/particles1.png",
+          "offX": 200,
+          "offY": 80,
+          "width": 8,
+          "height": 8
+        },
+        "guiSprites": true,
+        "renderMode": "lighter",
+        "time": 0.4,
+        "flipY": true,
+        "frames": [
+          0
+        ]
+      }
+    ]
+  },
+  "EFFECTS": {
+    "pentagonSourceShock": [
+      {
+        "size": "XL",
+        "fadeIn": 0,
+        "fadeOut": 0.3,
+        "duration": -1,
+        "glow": false,
+        "type": "LIGHT"
+      },
+      {
+        "type": "LOOP_START"
+      },
+      {
+        "useTargetAngle": false,
+        "keepAngleSync": false,
+        "pAlpha": {
+          "init": 1,
+          "start": {
+            "value": 0
+          }
+        },
+        "pScale": {
+          "init": {
+            "x": 0,
+            "y": 0
+          },
+          "start": {
+            "value": {
+              "x": 1.5,
+              "y": 1.5
+            },
+            "spline": "EASE_OUT"
+          }
+        },
+        "pRotate": {
+          "init": 0.05,
+          "start": {
+            "value": -0.05,
+            "spline": ""
+          }
+        },
+        "moveWithTarget": 1,
+        "cancelable": true,
+        "anim": "PENTAGON_SHOCK",
+        "type": "PLAY_ANIM"
+      },
+      {
+        "numParticles": 1,
+        "duration": 0.15,
+        "clockwise": false,
+        "centralAngle": 1,
+        "startDist": 16,
+        "random": true,
+        "moveDist": 12,
+        "moveVariance": 6,
+        "keySpline": "EASE_OUT",
+        "particleRotate": true,
+        "inverse": false,
+        "collision": false,
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "pScale": {
+          "init": {
+            "x": 0.4,
+            "y": 0.4
+          },
+          "end": {
+            "value": {
+              "x": 0,
+              "y": 0
+            },
+            "time": 0.2,
+            "spline": ""
+          }
+        },
+        "pRotate": {
+          "init": 0,
+          "start": {
+            "value": -0.3,
+            "spline": "EASE_OUT_STRONG"
+          }
+        },
+        "angleVary": 1,
+        "particleDuration": 0.3,
+        "particleDurVariance": 0.15,
+        "anim": "ENV_PENTA1_SHOCK",
+        "type": "OFFSET_PARTICLE_CIRCLE"
+      },
+      {
+        "numParticles": 3,
+        "duration": 0.2,
+        "clockwise": false,
+        "centralAngle": 1,
+        "startDist": 16,
+        "random": true,
+        "moveDist": 14,
+        "moveVariance": 7,
+        "keySpline": "EASE_OUT",
+        "particleRotate": true,
+        "inverse": false,
+        "collision": false,
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "pScale": {
+          "init": {
+            "x": 0.8,
+            "y": 0.8
+          },
+          "end": {
+            "value": {
+              "x": 0,
+              "y": 0
+            },
+            "time": 0.3,
+            "spline": ""
+          }
+        },
+        "angleVary": 0,
+        "particleDuration": 0.3,
+        "particleDurVariance": 0.15,
+        "anim": "SHOCK_BALL_DOT2",
+        "type": "OFFSET_PARTICLE_CIRCLE"
+      },
+      {
+        "time": 0.15,
+        "type": "WAIT"
+      },
+      {
+        "type": "LOOP_END"
+      }
+    ]
+  }
+}

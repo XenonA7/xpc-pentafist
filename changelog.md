@@ -1,3 +1,13 @@
+## 0.2.0 (09/03/2026)
+### New Content
+- New combat art: Fae Stream (Wave Throw Lv.1A)
+- Added effect spritesheet lighter-particle-big-pentagon.png
+- Added effect spritesheet penta-misc.png
+- Added specials effect files
+### Changes
+- Default uncharged projectiles now use "noLightGlow": false
+- Default melee attack reduced delay before finisher by 0.01 seconds
+
 ## 0.1.0 (09/02/2026)
 ### New Content
 - Created effect file combat.pentafistXPC

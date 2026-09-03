@@ -244,7 +244,8 @@
       "timer": 1,
       "trail": false,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "S",
       "animation": {
         "name": "default",
         "sheet": {
@@ -273,13 +274,14 @@
       "type": "BALL"
     },
     "chargedNeutral": {
-      "effects": "ball",
+      "effects": "ball-penta",
       "speed": 600,
       "maxBounce": 3,
       "timer": 1.5,
       "trail": true,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "M",
       "type": "BALL",
       "animation": {
         "name": "default",
@@ -309,18 +311,19 @@
       "behaviors": null
     },
     "defaultHeat": {
-      "effects": "ball-heat",
+      "effects": "ball-heat-penta",
       "speed": 550,
       "maxBounce": 0,
       "timer": 1,
       "trail": false,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "S",
       "type": "BALL",
       "animation": {
         "name": "default",
         "sheet": {
-          "src": "media/entity/balls/default.png ",
+          "src": "media/entity/balls/default.png",
           "xCount": 2,
           "offX": 144,
           "offY": 24,
@@ -345,13 +348,14 @@
       "behaviors": null
     },
     "chargedHeat": {
-      "effects": "ball-heat",
+      "effects": "ball-heat-penta",
       "speed": 600,
       "maxBounce": 3,
       "timer": 1.5,
       "trail": true,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "M",
       "type": "BALL",
       "animation": {
         "name": "default",
@@ -386,18 +390,19 @@
       "behaviors": []
     },
     "defaultCold": {
-      "effects": "ball-cold",
+      "effects": "ball-cold-penta",
       "speed": 550,
       "maxBounce": 0,
       "timer": 1,
       "trail": false,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "S",
       "type": "BALL",
       "animation": {
         "name": "default",
         "sheet": {
-          "src": "media/entity/balls/default.png  ",
+          "src": "media/entity/balls/default.png",
           "xCount": 2,
           "offX": 144,
           "offY": 48,
@@ -424,18 +429,19 @@
       "behaviors": []
     },
     "chargedCold": {
-      "effects": "ball-cold",
+      "effects": "ball-cold-penta",
       "speed": 600,
       "maxBounce": 3,
       "timer": 1.5,
       "trail": true,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "M",
       "type": "BALL",
       "animation": {
         "name": "default",
         "sheet": {
-          "src": "media/entity/balls/default.png ",
+          "src": "media/entity/balls/default.png",
           "offX": 120,
           "offY": 48,
           "width": 24,
@@ -465,18 +471,19 @@
       "behaviors": []
     },
     "defaultShock": {
-      "effects": "ball-shock",
+      "effects": "ball-shock-penta",
       "speed": 550,
       "maxBounce": 0,
       "timer": 1,
       "trail": false,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "S",
       "type": "BALL",
       "animation": {
         "name": "default",
         "sheet": {
-          "src": "media/entity/balls/default.png   ",
+          "src": "media/entity/balls/default.png",
           "xCount": 2,
           "offX": 144,
           "offY": 72,
@@ -503,18 +510,19 @@
       "behaviors": []
     },
     "chargedShock": {
-      "effects": "ball-shock",
+      "effects": "ball-shock-penta",
       "speed": 600,
       "maxBounce": 3,
       "timer": 1.5,
       "trail": true,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "M",
       "type": "BALL",
       "animation": {
         "name": "default",
         "sheet": {
-          "src": "media/entity/balls/default.png ",
+          "src": "media/entity/balls/default.png",
           "offX": 120,
           "offY": 72,
           "width": 24,
@@ -544,18 +552,19 @@
       "behaviors": []
     },
     "defaultWave": {
-      "effects": "ball-wave",
+      "effects": "ball-wave-penta",
       "speed": 550,
       "maxBounce": 0,
       "timer": 1,
       "trail": false,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "S",
       "type": "BALL",
       "animation": {
         "name": "default",
         "sheet": {
-          "src": "media/entity/balls/default.png   ",
+          "src": "media/entity/balls/default.png",
           "xCount": 2,
           "offX": 144,
           "offY": 96,
@@ -582,18 +591,19 @@
       "behaviors": []
     },
     "chargedWave": {
-      "effects": "ball-wave",
+      "effects": "ball-wave-penta",
       "speed": 600,
       "maxBounce": 3,
       "timer": 1.5,
       "trail": true,
       "multiHit": false,
-      "noLightGlow": false,
+      "noLightGlow": true,
+      "light": "M",
       "type": "BALL",
       "animation": {
         "name": "default",
         "sheet": {
-          "src": "media/entity/balls/default.png ",
+          "src": "media/entity/balls/default.png",
           "offX": 120,
           "offY": 96,
           "width": 24,
@@ -815,7 +825,7 @@
               "y": 8
             },
             "sheet": {
-              "src": "media/entity/effects/icicles.png  ",
+              "src": "media/entity/effects/icicles.png",
               "offX": 88,
               "offY": 0,
               "width": 40,
@@ -829,7 +839,7 @@
               "y": 40
             },
             "sheet": {
-              "src": "media/entity/effects/icicles.png  ",
+              "src": "media/entity/effects/icicles.png",
               "offX": 88,
               "offY": 56,
               "width": 48,
@@ -2105,6 +2115,2172 @@
           }
         ]
       },
+      "ATTACK": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "action": 0.175,
+              "move": 0.3,
+              "reaim": 0.4
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "attackEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "spinShort",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "value": 160,
+            "type": "SET_SPEED"
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "NEUTRAL",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchNeutral"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "NEUTRAL",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "HEAT",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchHeat"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "HEAT",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "COLD",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchCold"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "COLD",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "SHOCK",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchShock"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "SHOCK",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "WAVE",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchWave"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "WAVE",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "name": "POST_1",
+            "type": "LABEL"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "baseStrength": 0.5,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "time": 0.15,
+            "type": "WAIT"
+          },
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "charge": 0.3,
+              "action": 0.7,
+              "move": 0.8,
+              "reaim": 0.9
+            }
+          },
+          {
+            "followUp": "attackEndRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinFullFastRev"
+          },
+          {
+            "value": 200,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "type": "PLAYER_ADJUST_MOVE_DIR"
+          },
+          {
+            "time": 0.05,
+            "stopBeforeEdge": true,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "baseStrength": 1.0,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "NEUTRAL",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchNeutralFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "NEUTRAL",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "HEAT",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchHeatFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "HEAT",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "COLD",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchColdFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "COLD",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "SHOCK",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchShockFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "SHOCK",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "WAVE",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchWaveFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "WAVE",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "name": "POST_2",
+            "type": "LABEL"
+          },
+          {
+            "value": 50,
+            "type": "SET_SPEED"
+          },
+          {
+            "time": 0.55,
+            "type": "WAIT"
+          },
+          {
+            "wait": true,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "preIdle"
+          }
+        ]
+      },
+      "ATTACK_REV": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.175,
+              "move": 0.3,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attackEndRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 160,
+            "type": "SET_SPEED"
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "NEUTRAL",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchNeutralRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "NEUTRAL",
+                  "fly": "MEDIUM",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "HEAT",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchHeatRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "HEAT",
+                  "fly": "MEDIUM",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "COLD",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchColdRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "COLD",
+                  "fly": "MEDIUM",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "SHOCK",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchShockRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "SHOCK",
+                  "fly": "MEDIUM",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "WAVE",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchWaveRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "WAVE",
+                  "fly": "MEDIUM",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "name": "POST_1",
+            "type": "LABEL"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "baseStrength": 0.5,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "time": 0.15,
+            "type": "WAIT"
+          },
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "charge": 0.3,
+              "action": 0.7,
+              "move": 0.8,
+              "reaim": 0.9
+            }
+          },
+          {
+            "followUp": "attackEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinFullFast"
+          },
+          {
+            "value": 200,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "type": "PLAYER_ADJUST_MOVE_DIR"
+          },
+          {
+            "time": 0.05,
+            "stopBeforeEdge": true,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "baseStrength": 1.0,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "NEUTRAL",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchNeutralFinisher"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "NEUTRAL",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "HEAT",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchHeatFinisher"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "HEAT",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "COLD",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchColdFinisher"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "COLD",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "SHOCK",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchShockFinisher"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "SHOCK",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "WAVE",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchWaveFinisher"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "WAVE",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "name": "POST_2",
+            "type": "LABEL"
+          },
+          {
+            "value": 50,
+            "type": "SET_SPEED"
+          },
+          {
+            "time": 0.55,
+            "type": "WAIT"
+          },
+          {
+            "wait": true,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "preIdle"
+          }
+        ]
+      },
+      "ATTACK_FINISHER": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "action": 0.175,
+              "move": 0.3,
+              "reaim": 0.4
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "attackEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "spinShort",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "value": 160,
+            "type": "SET_SPEED"
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "NEUTRAL",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchNeutral"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "NEUTRAL",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "HEAT",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchHeat"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "HEAT",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "COLD",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchCold"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "COLD",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "SHOCK",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchShock"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "SHOCK",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "WAVE",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 8,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchWave"
+                },
+                "type": "SHOW_EFFECT"
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 44,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "attack": {
+                  "type": "MEDIUM",
+                  "element": "WAVE",
+                  "fly": "LIGHT",
+                  "damageFactor": 0.55,
+                  "reverse": false,
+                  "spFactor": 1,
+                  "guardable": "",
+                  "skillBonus": "MELEE_DMG",
+                  "limiter": ""
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "type": "CIRCLE_ATTACK"
+              },
+              {
+                "name": "POST_1",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "name": "POST_1",
+            "type": "LABEL"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "baseStrength": 0.5,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "time": 0.15,
+            "type": "WAIT"
+          },
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "charge": 0.3,
+              "action": 0.7,
+              "move": 0.8,
+              "reaim": 0.9
+            }
+          },
+          {
+            "followUp": "attackEndRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinFullFastRev"
+          },
+          {
+            "value": 200,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "type": "PLAYER_ADJUST_MOVE_DIR"
+          },
+          {
+            "time": 0.05,
+            "stopBeforeEdge": true,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "baseStrength": 1.0,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "NEUTRAL",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchNeutralFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "NEUTRAL",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "HEAT",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchHeatFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "HEAT",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "COLD",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchColdFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "COLD",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "SHOCK",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchShockFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "SHOCK",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "conditions": [
+              {
+                "element": "WAVE",
+                "negated": false,
+                "type": "ELEMENT_MODE"
+              }
+            ],
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "BOTTOM",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.pentafistXPC",
+                  "name": "punchWaveFinisherRev"
+                }
+              },
+              {
+                "align": "BOTTOM",
+                "radius": 48,
+                "yScale": 0,
+                "zHeight": 16,
+                "centralAngle": 0.3,
+                "duration": 0.1,
+                "expandRadius": 0,
+                "alwaysFull": true,
+                "clockwise": false,
+                "flipLeftFace": 0,
+                "rectangular": false,
+                "repeat": false,
+                "uniformHitDir": false,
+                "fixPos": false,
+                "checkCollision": true,
+                "type": "CIRCLE_ATTACK",
+                "attack": {
+                  "type": "HEAVY",
+                  "fly": "MASSIVE",
+                  "damageFactor": 0.8,
+                  "element": "WAVE",
+                  "spFactor": 1
+                },
+                "skillBonus": "MELEE_DMG"
+              },
+              {
+                "name": "POST_2",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "name": "POST_2",
+            "type": "LABEL"
+          },
+          {
+            "value": 50,
+            "type": "SET_SPEED"
+          },
+          {
+            "time": 0.55,
+            "type": "WAIT"
+          },
+          {
+            "wait": true,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "preIdle"
+          }
+        ]
+      },
       "DASH": {
         "steps": [
           {
@@ -2123,18 +4299,18 @@
             "wait": false,
             "viaWalkConfig": false,
             "type": "SHOW_ANIMATION",
-            "anim": "spinFull"
+            "anim": "spinFullFast"
           },
           {
             "value": false,
             "type": "SET_JUMPING"
           },
           {
-            "value": 320,
+            "value": 420,
             "type": "SET_SPEED"
           },
           {
-            "value": 2,
+            "value": 2.5,
             "type": "SET_ACCEL_SPEED"
           },
           {
@@ -2177,9 +4353,13 @@
             "dir": {
               "actorAttrib": "dashDir"
             },
-            "time": 0.11,
+            "time": 0.07,
             "stopBeforeEdge": false,
             "type": "MOVE_TO_DIR"
+          },
+          {
+            "value": 0.1,
+            "type": "SET_ACCEL_SPEED"
           },
           {
             "wait": false,
@@ -2188,7 +4368,14 @@
             "anim": "aim"
           },
           {
-            "time": 0.2,
+            "target": "SELF",
+            "timeScale": 1.75,
+            "logicTimeScale": 1,
+            "moveXYScale": 1,
+            "type": "ADD_TEMP_INFLUENCE"
+          },
+          {
+            "time": 0.24,
             "type": "WAIT"
           }
         ]
@@ -2366,277 +4553,6 @@
       }
     },
     "NEUTRAL": {
-      "ATTACK": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            },
-            "type": "SET_PLAYER_ACTION_BLOCK"
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "anim": "spinShort",
-            "type": "SHOW_ANIMATION"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchNeutral"
-            },
-            "type": "SHOW_EFFECT"
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": true,
-            "attack": {
-              "type": "MEDIUM",
-              "element": "NEUTRAL",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "CIRCLE_ATTACK"
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_REV": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            }
-          },
-          {
-            "followUp": "attackEndRev",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShortRev"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchNeutralRev"
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": true,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "MEDIUM",
-              "element": "NEUTRAL",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_FINISHER": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "charge": 0.3,
-              "action": 0.7,
-              "move": 0.8,
-              "reaim": 0.9
-            }
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShort"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 0,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchNeutralFinisher"
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "value": 3,
-            "type": "SET_ACCEL_SPEED"
-          },
-          {
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_FORWARD"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 48,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": true,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "HEAVY",
-              "fly": "MASSIVE",
-              "damageFactor": 2,
-              "element": "NEUTRAL",
-              "spFactor": 1
-            },
-            "skillBonus": "MELEE_DMG"
-          },
-          {
-            "value": 50,
-            "type": "SET_SPEED"
-          },
-          {
-            "time": 0.95,
-            "type": "WAIT"
-          },
-          {
-            "followUp": "idle",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "preIdle"
-          },
-          {
-            "time": 0.05,
-            "type": "WAIT"
-          }
-        ]
-      },
       "ATTACK_SPECIAL1_A": {
         "name": {
           "en_US": "Beatdown",
@@ -3577,296 +5493,6 @@
       }
     },
     "HEAT": {
-      "ATTACK": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            },
-            "type": "SET_PLAYER_ACTION_BLOCK"
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "anim": "spinShort",
-            "type": "SHOW_ANIMATION"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchHeat"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "SHOW_EFFECT"
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "attack": {
-              "type": "MEDIUM",
-              "element": "HEAT",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "CIRCLE_ATTACK"
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_REV": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            }
-          },
-          {
-            "followUp": "attackEndRev",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShortRev"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchHeatRev"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "MEDIUM",
-              "element": "HEAT",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_FINISHER": {
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "charge": 0.3,
-              "action": 0.7,
-              "move": 0.8,
-              "reaim": 0.9
-            }
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShort"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 0,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchHeatFinisher"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "value": 3,
-            "type": "SET_ACCEL_SPEED"
-          },
-          {
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_FORWARD"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 48,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "HEAVY",
-              "element": "HEAT",
-              "damageFactor": 2,
-              "fly": "MASSIVE",
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": ""
-            },
-            "skillBonus": "MELEE_DMG",
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 50,
-            "type": "SET_SPEED"
-          },
-          {
-            "time": 0.95,
-            "type": "WAIT"
-          },
-          {
-            "followUp": "idle",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "preIdle"
-          },
-          {
-            "time": 0.05,
-            "type": "WAIT"
-          }
-        ]
-      },
       "ATTACK_SPECIAL1_A": {
         "name": {
           "en_US": "Faucon Poing",
@@ -4286,299 +5912,6 @@
       }
     },
     "COLD": {
-      "ATTACK": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            },
-            "type": "SET_PLAYER_ACTION_BLOCK"
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "anim": "spinShort",
-            "type": "SHOW_ANIMATION"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchCold"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "SHOW_EFFECT"
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "attack": {
-              "type": "MEDIUM",
-              "element": "COLD",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "CIRCLE_ATTACK"
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_REV": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            }
-          },
-          {
-            "followUp": "attackEndRev",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShortRev"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchColdRev"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "MEDIUM",
-              "element": "COLD",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_FINISHER": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "charge": 0.3,
-              "action": 0.7,
-              "move": 0.8,
-              "reaim": 0.9
-            }
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShort"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 0,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchColdFinisher"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "value": 3,
-            "type": "SET_ACCEL_SPEED"
-          },
-          {
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_FORWARD"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 48,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "HEAVY",
-              "element": "COLD",
-              "damageFactor": 2,
-              "fly": "MASSIVE",
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": ""
-            },
-            "skillBonus": "MELEE_DMG",
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 50,
-            "type": "SET_SPEED"
-          },
-          {
-            "time": 0.95,
-            "type": "WAIT"
-          },
-          {
-            "followUp": "idle",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "preIdle"
-          },
-          {
-            "time": 0.05,
-            "type": "WAIT"
-          }
-        ]
-      },
       "THROW_SPECIAL1_A": {
         "name": {
           "en_US": "Freeze Nails",
@@ -5010,296 +6343,6 @@
       }
     },
     "SHOCK": {
-      "ATTACK": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            },
-            "type": "SET_PLAYER_ACTION_BLOCK"
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "anim": "spinShort",
-            "type": "SHOW_ANIMATION"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchShock"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "SHOW_EFFECT"
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "attack": {
-              "type": "MEDIUM",
-              "element": "SHOCK",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "CIRCLE_ATTACK"
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_REV": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            }
-          },
-          {
-            "followUp": "attackEndRev",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShortRev"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchShockRev"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "MEDIUM",
-              "element": "SHOCK",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_FINISHER": {
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "charge": 0.3,
-              "action": 0.7,
-              "move": 0.8,
-              "reaim": 0.9
-            }
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShort"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 0,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchShockFinisher"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "value": 3,
-            "type": "SET_ACCEL_SPEED"
-          },
-          {
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_FORWARD"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 48,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "HEAVY",
-              "element": "SHOCK",
-              "damageFactor": 2,
-              "fly": "MASSIVE",
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": ""
-            },
-            "skillBonus": "MELEE_DMG",
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 50,
-            "type": "SET_SPEED"
-          },
-          {
-            "time": 0.95,
-            "type": "WAIT"
-          },
-          {
-            "followUp": "idle",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "preIdle"
-          },
-          {
-            "time": 0.05,
-            "type": "WAIT"
-          }
-        ]
-      },
       "ATTACK_SPECIAL1_A": {
         "name": {
           "en_US": "Pummeling Strike",
@@ -6020,296 +7063,6 @@
       }
     },
     "WAVE": {
-      "ATTACK": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            },
-            "type": "SET_PLAYER_ACTION_BLOCK"
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "anim": "spinShort",
-            "type": "SHOW_ANIMATION"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchWave"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "SHOW_EFFECT"
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "attack": {
-              "type": "MEDIUM",
-              "element": "WAVE",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "type": "CIRCLE_ATTACK"
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_REV": {
-        "dmgType": "",
-        "stunType": "",
-        "status": false,
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "action": 0.15,
-              "move": 0.3,
-              "reaim": 0.4
-            }
-          },
-          {
-            "followUp": "attackEndRev",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShortRev"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 8,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchWaveRev"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 40,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "MEDIUM",
-              "element": "WAVE",
-              "damageFactor": 0.7,
-              "reverse": false,
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": "MELEE_DMG",
-              "limiter": ""
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "dir": {
-              "actorAttrib": "dashDir"
-            },
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_TO_DIR"
-          },
-          {
-            "time": 0.5,
-            "type": "WAIT"
-          }
-        ]
-      },
-      "ATTACK_FINISHER": {
-        "steps": [
-          {
-            "type": "SET_PLAYER_ACTION_BLOCK",
-            "blockData": {
-              "dash": 0,
-              "charge": 0.3,
-              "action": 0.7,
-              "move": 0.8,
-              "reaim": 0.9
-            }
-          },
-          {
-            "followUp": "attackEnd",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "spinShort"
-          },
-          {
-            "duration": 0,
-            "align": "BOTTOM",
-            "rotateFace": 0,
-            "flipLeftFace": false,
-            "wait": false,
-            "waitSkip": 0,
-            "actionDetached": false,
-            "fixPos": false,
-            "type": "SHOW_EFFECT",
-            "effect": {
-              "sheet": "combat.pentafist",
-              "name": "punchWaveFinisher"
-            },
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 200,
-            "type": "SET_SPEED"
-          },
-          {
-            "value": 3,
-            "type": "SET_ACCEL_SPEED"
-          },
-          {
-            "time": 0.05,
-            "stopBeforeEdge": true,
-            "type": "MOVE_FORWARD"
-          },
-          {
-            "align": "BOTTOM",
-            "radius": 48,
-            "yScale": 0,
-            "zHeight": 0,
-            "centralAngle": 0.3,
-            "duration": 0.1,
-            "expandRadius": 0,
-            "alwaysFull": true,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "rectangular": false,
-            "repeat": false,
-            "uniformHitDir": false,
-            "fixPos": false,
-            "checkCollision": false,
-            "type": "CIRCLE_ATTACK",
-            "attack": {
-              "type": "HEAVY",
-              "element": "WAVE",
-              "damageFactor": 2,
-              "fly": "MASSIVE",
-              "spFactor": 1,
-              "guardable": "",
-              "skillBonus": ""
-            },
-            "skillBonus": "MELEE_DMG",
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            }
-          },
-          {
-            "value": 50,
-            "type": "SET_SPEED"
-          },
-          {
-            "time": 0.95,
-            "type": "WAIT"
-          },
-          {
-            "followUp": "idle",
-            "wait": false,
-            "viaWalkConfig": false,
-            "type": "SHOW_ANIMATION",
-            "anim": "preIdle"
-          },
-          {
-            "time": 0.05,
-            "type": "WAIT"
-          }
-        ]
-      },
       "ATTACK_SPECIAL1_A": {
         "name": {
           "en_US": "Palm Basher",

@@ -679,7 +679,7 @@
       {
         "name": "CROSSHAIR",
         "sheet": {
-          "src": "media/entity/effects/particles1.png ",
+          "src": "media/entity/effects/particles1.png",
           "offX": 208,
           "offY": 32,
           "width": 16,

@@ -2,66 +2,7 @@
   "DOCTYPE": "EFFECT",
   "ANIMS": {
     "guiSprites": true,
-    "SUB": [
-      {
-        "name": "PENTAGON_FLAT",
-        "sheet": {
-          "src": "media/entity/effects/neutral.png",
-          "offX": 0,
-          "offY": 72,
-          "width": 32,
-          "height": 32
-        },
-        "renderMode": "lighter",
-        "time": 0.066,
-        "repeat": false,
-        "frames": [
-          0
-        ]
-      },
-      {
-        "name": "PENTAGON",
-        "sheet": {
-          "src": "media/entity/effects/neutral.png",
-          "offX": 0,
-          "offY": 72,
-          "width": 32,
-          "height": 32
-        },
-        "renderMode": "lighter",
-        "time": 0.066,
-        "repeat": false,
-        "frames": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
-        ]
-      },
-      {
-        "name": "PENTAGON_LOOP",
-        "sheet": {
-          "src": "media/entity/effects/neutral.png",
-          "offX": 0,
-          "offY": 72,
-          "width": 32,
-          "height": 32
-        },
-        "renderMode": "lighter",
-        "time": 0.033,
-        "repeat": true,
-        "frames": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
-        ]
-      }
-    ]
+    "SUB": []
   },
   "FACEANIMS": {
     "namedSheets": {

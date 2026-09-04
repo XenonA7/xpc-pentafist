@@ -9,7 +9,7 @@
           "y": 0
         },
         "sheet": {
-          "src": "media/entity/effects/ball.png ",
+          "src": "media/entity/effects/ball.png",
           "offX": 0,
           "offY": 240,
           "width": 16,
@@ -28,7 +28,7 @@
       {
         "name": "CIRCLE",
         "sheet": {
-          "src": "media/entity/effects/ball.png ",
+          "src": "media/entity/effects/ball.png",
           "offX": 96,
           "offY": 240,
           "width": 16,
@@ -51,7 +51,7 @@
           "y": 0
         },
         "sheet": {
-          "src": "media/entity/effects/ball.png ",
+          "src": "media/entity/effects/ball.png",
           "offX": 0,
           "offY": 256,
           "width": 32,
@@ -166,8 +166,8 @@
     ],
     "ballTrail": [
       {
-        "scaleX": 1.1,
-        "scaleY": 1.1,
+        "scaleX": 1.15,
+        "scaleY": 1.15,
         "duration": 0,
         "type": "CHANGE_SCALE"
       },

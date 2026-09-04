@@ -199,8 +199,8 @@
     ],
     "ballTrail": [
       {
-        "scaleX": 1.1,
-        "scaleY": 1.1,
+        "scaleX": 1.15,
+        "scaleY": 1.15,
         "duration": 0,
         "type": "CHANGE_SCALE"
       },

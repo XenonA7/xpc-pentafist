@@ -1,3 +1,14 @@
+## 0.3.0 (09/03/2026)
+### New Content
+- New combat art: Verdant Echo (Wave Melee Lv.1A)
+- Added Fae Stream support for Verdant Echo clones
+### Changes
+- Palm Basher (vanilla placeholder) changed to Wave Attack Lv.2A for now
+- Non-neutral "ballTrail" effects for charged default projectiles CHANGE_SCALE increased from 1.1 to 1.15
+- Fae Stream is no longer dash-cancelable during the first 0.2 seconds while projectiles are being shot
+### Fixes
+- Fixed excess spaces after effect src file paths
+
 ## 0.2.0 (09/03/2026)
 ### New Content
 - New combat art: Fae Stream (Wave Throw Lv.1A)

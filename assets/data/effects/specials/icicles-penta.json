@@ -241,11 +241,11 @@
       {
         "name": "BLUE_SPARKLE",
         "sheet": {
-          "src": "media/entity/effects/starcaller/starcaller-misc.png",
+          "src": "media/entity/effects/triblader/tri-misc.png",
           "width": 8,
           "height": 8,
-          "offX": 144,
-          "offY": 16
+          "offX": 64,
+          "offY": 89
         },
         "time": 0.05,
         "guiSprites": true,
@@ -344,7 +344,5 @@
       }
     ]
   },
-  "EFFECTS": {
-
-  }
+  "EFFECTS": {}
 }

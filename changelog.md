@@ -1,3 +1,19 @@
+## 0.4.0 (09/18/2026)
+### New Content
+- New combat art: Fae Bomb (Wave Throw Lv.1B)
+### Changes
+- Added a "JUMPY" CHANGE_SCALE to effect verdantEchoDummyActivate
+- Deleted leftover Emilie2 combat arts "Hammer Throw", "Hammer Hail", "Vital Pulse" 
+- Deleted Emilie arts "Frozen Cage", "Pummeling Strike", "Amber Thrust", "Freeze Nails", "Crimson Strike", "Faucon Poing", "Ball of Fist"
+- Fae Spike (placeholder) changed from THROW_SPECIAL2_A to THROW_SPECIAL2_B
+- Updated description for Fae Stream
+- Verdant Echo clones now use new effect verdantEchoDummyAura instead of recycled Hexacast effect cohortDummyFXLoop
+### Fixes
+- Removed leftover starcaller2 dependencies in effect files
+### Balance
+- Verdant Echo clones initial lunge speed increased from 100 to 250
+- Verdant Echo initial punch knockback increased from HEAVY to MASSIVE
+
 ## 0.3.0 (09/03/2026)
 ### New Content
 - New combat art: Verdant Echo (Wave Melee Lv.1A)

@@ -406,6 +406,30 @@
         "repeat": true
       },
       {
+        "name": "DUST_UP",
+        "sheet": {
+          "src": "media/entity/effects/dust.png",
+          "width": 24,
+          "height": 32,
+          "offY": 32
+        },
+        "pivot": {
+          "x": 10,
+          "y": 24
+        },
+        "time": 0.06,
+        "repeat": false,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
         "name": "DUST_UP_BIG",
         "sheet": {
           "src": "media/entity/effects/dust.png",
@@ -1030,6 +1054,36 @@
             "value": 1
           }
         }
+      }
+    ],
+    "jumpDust": [
+      {
+        "numParticles": 7,
+        "duration": 0.05,
+        "centralAngle": 1,
+        "clockwise": false,
+        "startDist": 24,
+        "random": true,
+        "uniformRandom": 0.3,
+        "flipRightParticles": true,
+        "moveDist": 4,
+        "keySpline": "EASE_OUT",
+        "collision": false,
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "pScale": {
+          "init": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        "moveWithTarget": 0,
+        "cancelable": false,
+        "anim": "DUST_UP",
+        "type": "OFFSET_PARTICLE_CIRCLE"
       }
     ]
   }

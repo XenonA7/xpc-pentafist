@@ -1,3 +1,23 @@
+## 0.5.0 (09/22/2026)
+### New Content
+- New combat art: Vile Stream (Wave Throw Lv.2A)
+- New custom skill: Vile Convergence (Wave Throw Lv.2)
+- New combat art: Fae Spike (Wave Throw Lv.2B)
+### Changes
+- Proxy faeBombBullet lifetime reduced from 1.2 seconds to 0.8 seconds
+- Effect faeBombDummyFly offsetRadius for homing particles reduced by half
+- Effect verdantEchoPunchExtra increased audio playback speed
+### Fixes
+- Proxy faeBombExplosion is now DETACH_TIME_PARENT
+- Verdant Echo clones now DETACH_TIME_PARENT when activated for Fae Stream
+### Balance
+- Fae Bomb level 1 reduced knockback from MASSIVE+ to MASSIVE
+- Fae Bomb damage factors per clone level reduced from 5.0/6.5/8.0/10.0 to 5.0/5.75/6.5/7.5
+- Verdant Echo clones initial lunge speed increased from 250 to 325
+- Proxy vileStreamStunner damageFactor for Verdant Echo clones reduced from 0.5 to 0.35
+
+
+
 ## 0.4.0 (09/18/2026)
 ### New Content
 - New combat art: Fae Bomb (Wave Throw Lv.1B)

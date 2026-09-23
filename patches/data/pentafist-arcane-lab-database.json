@@ -1,0 +1,23 @@
+{
+  "csPentafistCustom1WaveThrow2A": {
+    "list": [
+      {
+        "replaceTo": "CS_CUSTOM1_PENTAFIST_THROW_SPECIAL2_A",
+        "actionCheckKey": "THROW_SPECIAL2"
+      }
+    ],
+    "element": "WAVE",
+    "activeCondition": "player.entity.name == 'Pentafist4'",
+    "name": {
+      "en_US": "\\i[class-penta] Vile Convergence"
+    },
+    "description": {
+      "en_US": "Vile Stream except \\c[3]Verdant Echoes\\c[0] will aim at your cursor."
+    },
+    "icon": {
+      "src": "media/gui/custom-skills/pentafist-bonus-skills.png",
+      "offX": 0,
+      "offY": 0
+    }
+  }
+}

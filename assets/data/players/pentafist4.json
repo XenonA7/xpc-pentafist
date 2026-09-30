@@ -2135,7 +2135,15 @@
                   }
                 },
                 {
-                  "time": 0.5,
+                  "time": 0.3,
+                  "type": "WAIT"
+                },
+                {
+                  "size": 0,
+                  "type": "SET_SHADOW"
+                },
+                {
+                  "time": 0.2,
                   "type": "WAIT"
                 },
                 {
@@ -2472,6 +2480,46 @@
                   ]
                 },
                 {
+                  "withElse": true,
+                  "type": "IF",
+                  "condition": "!entity.hasTmpTarget",
+                  "thenStep": [
+                    {
+                      "withElse": true,
+                      "type": "COMBAT_IF",
+                      "conditions": [
+                        {
+                          "max": 0.5,
+                          "negated": false,
+                          "type": "RANDOM"
+                        }
+                      ],
+                      "thenStep": [
+                        {
+                          "poiFilter": {
+                            "group": "faeBomberTargetGroup",
+                            "type": "PROXY"
+                          },
+                          "distance": 600,
+                          "furthest": false,
+                          "type": "SET_POI_TEMP_TARGET"
+                        }
+                      ],
+                      "elseStep": [
+                        {
+                          "poiFilter": {
+                            "group": "faeBomberTargetGroup",
+                            "type": "PROXY"
+                          },
+                          "distance": 600,
+                          "furthest": true,
+                          "type": "SET_POI_TEMP_TARGET"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "value": false,
                   "immediately": true,
                   "type": "FACE_TO_TARGET"
@@ -2686,6 +2734,46 @@
                   ]
                 },
                 {
+                  "withElse": true,
+                  "type": "IF",
+                  "condition": "!entity.hasTmpTarget",
+                  "thenStep": [
+                    {
+                      "withElse": true,
+                      "type": "COMBAT_IF",
+                      "conditions": [
+                        {
+                          "max": 0.5,
+                          "negated": false,
+                          "type": "RANDOM"
+                        }
+                      ],
+                      "thenStep": [
+                        {
+                          "poiFilter": {
+                            "group": "faeBomberTargetGroup",
+                            "type": "PROXY"
+                          },
+                          "distance": 600,
+                          "furthest": false,
+                          "type": "SET_POI_TEMP_TARGET"
+                        }
+                      ],
+                      "elseStep": [
+                        {
+                          "poiFilter": {
+                            "group": "faeBomberTargetGroup",
+                            "type": "PROXY"
+                          },
+                          "distance": 600,
+                          "furthest": true,
+                          "type": "SET_POI_TEMP_TARGET"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "value": false,
                   "immediately": true,
                   "type": "FACE_TO_TARGET"
@@ -2860,6 +2948,10 @@
           "type": "MOD_GENERIC_PROXY"
         },
         {
+          "size": 0,
+          "type": "SET_SHADOW"
+        },
+        {
           "duration": 0,
           "align": "BOTTOM",
           "rotateFace": 8,
@@ -2904,6 +2996,7 @@
       },
       "config": {
         "collType": "IGNORE",
+        "shadow": 16,
         "jumpingEnabled": true
       },
       "type": "GENERIC"
@@ -4774,6 +4867,46 @@
               ]
             },
             {
+              "withElse": true,
+              "type": "IF",
+              "condition": "!entity.hasTmpTarget",
+              "thenStep": [
+                {
+                  "withElse": true,
+                  "type": "COMBAT_IF",
+                  "conditions": [
+                    {
+                      "max": 0.5,
+                      "negated": false,
+                      "type": "RANDOM"
+                    }
+                  ],
+                  "thenStep": [
+                    {
+                      "poiFilter": {
+                        "group": "faeBomberTargetGroup",
+                        "type": "PROXY"
+                      },
+                      "distance": 600,
+                      "furthest": false,
+                      "type": "SET_POI_TEMP_TARGET"
+                    }
+                  ],
+                  "elseStep": [
+                    {
+                      "poiFilter": {
+                        "group": "faeBomberTargetGroup",
+                        "type": "PROXY"
+                      },
+                      "distance": 600,
+                      "furthest": true,
+                      "type": "SET_POI_TEMP_TARGET"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "value": false,
               "immediately": true,
               "type": "FACE_TO_TARGET"
@@ -5179,25 +5312,10 @@
           "type": "DETACH_TIME_PARENT"
         },
         {
-          "withElse": true,
-          "type": "IF",
-          "condition": "entity.attrib.polarityThrowType",
-          "thenStep": [
-            {
-              "wait": false,
-              "viaWalkConfig": false,
-              "type": "SHOW_ANIMATION",
-              "anim": "attackEndRev"
-            }
-          ],
-          "elseStep": [
-            {
-              "wait": false,
-              "viaWalkConfig": false,
-              "type": "SHOW_ANIMATION",
-              "anim": "attackEnd"
-            }
-          ]
+          "wait": false,
+          "viaWalkConfig": false,
+          "type": "SHOW_ANIMATION",
+          "anim": "landOnGround"
         },
         {
           "duration": 0,
@@ -5420,6 +5538,46 @@
                   "distance": 600,
                   "furthest": true,
                   "type": "SET_POI_TEMP_TARGET"
+                }
+              ]
+            },
+            {
+              "withElse": true,
+              "type": "IF",
+              "condition": "!entity.hasTmpTarget",
+              "thenStep": [
+                {
+                  "withElse": true,
+                  "type": "COMBAT_IF",
+                  "conditions": [
+                    {
+                      "max": 0.5,
+                      "negated": false,
+                      "type": "RANDOM"
+                    }
+                  ],
+                  "thenStep": [
+                    {
+                      "poiFilter": {
+                        "group": "faeBomberTargetGroup",
+                        "type": "PROXY"
+                      },
+                      "distance": 600,
+                      "furthest": false,
+                      "type": "SET_POI_TEMP_TARGET"
+                    }
+                  ],
+                  "elseStep": [
+                    {
+                      "poiFilter": {
+                        "group": "faeBomberTargetGroup",
+                        "type": "PROXY"
+                      },
+                      "distance": 600,
+                      "furthest": true,
+                      "type": "SET_POI_TEMP_TARGET"
+                    }
+                  ]
                 }
               ]
             },
@@ -10854,6 +11012,46 @@
                 ]
               },
               {
+                "withElse": true,
+                "type": "IF",
+                "condition": "!entity.hasTmpTarget",
+                "thenStep": [
+                  {
+                    "withElse": true,
+                    "type": "COMBAT_IF",
+                    "conditions": [
+                      {
+                        "max": 0.5,
+                        "negated": false,
+                        "type": "RANDOM"
+                      }
+                    ],
+                    "thenStep": [
+                      {
+                        "poiFilter": {
+                          "group": "faeBomberTargetGroup",
+                          "type": "PROXY"
+                        },
+                        "distance": 600,
+                        "furthest": false,
+                        "type": "SET_POI_TEMP_TARGET"
+                      }
+                    ],
+                    "elseStep": [
+                      {
+                        "poiFilter": {
+                          "group": "faeBomberTargetGroup",
+                          "type": "PROXY"
+                        },
+                        "distance": 600,
+                        "furthest": true,
+                        "type": "SET_POI_TEMP_TARGET"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "value": false,
                 "immediately": true,
                 "type": "FACE_TO_TARGET"
@@ -10953,16 +11151,6 @@
                 "type": "CLEAR_EFFECTS"
               },
               {
-                "align": "CENTER",
-                "type": "SHOOT_PROXY",
-                "proxy": "faeBomberDoneFXProxy",
-                "offset": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
-              },
-              {
                 "time": 0.4,
                 "removeEntityStatic": false,
                 "type": "CLEAR_SLOW_MOTION"
@@ -10998,6 +11186,16 @@
               },
               {
                 "type": "WAIT_UNTIL_ON_GROUND"
+              },
+              {
+                "align": "CENTER",
+                "type": "SHOOT_PROXY",
+                "proxy": "faeBomberDoneFXProxy",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
               },
               {
                 "duration": 0,

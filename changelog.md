@@ -1,3 +1,11 @@
+## 0.6.1 (09/29/2026)
+### Changes
+- Effect faeBomberPlayerDone now shows when player lands instead of while still in mid-air
+- Effect faeBomberPlayerDone starting delay reduced from 0.4 to 0.02
+### Fixes
+- Added missing shadow to verdantEchoDummy
+- Fixed Fae Bomber not targeting solid enemies (using Triforce Slash method of poiFilter PROXY as fallback)
+
 ## 0.6.0 (09/29/2026)
 ### New Content
 - New combat art: Fae Bomber (Wave Throw Lv.3B)

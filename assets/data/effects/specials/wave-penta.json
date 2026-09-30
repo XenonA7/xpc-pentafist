@@ -9715,7 +9715,7 @@
     ],
     "faeBomberPlayerDone": [
       {
-        "time": 0.2,
+        "time": 0.02,
         "type": "WAIT"
       },
       {
@@ -9778,7 +9778,7 @@
           "z": 0
         },
         "pAlpha": {
-          "init": 0.2,
+          "init": 0.15,
           "start": {
             "value": 0,
             "spline": "EASE_IN"

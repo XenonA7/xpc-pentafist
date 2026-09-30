@@ -1,3 +1,17 @@
+## 0.6.0 (09/29/2026)
+### New Content
+- New combat art: Fae Bomber (Wave Throw Lv.3B)
+### Changes
+- Tweaked audio for effect faeSpikePunch
+- Added player dust effect to Fae Bomb
+- Debug SHOW_AR_MSG steps changed to fake condition !tmp.xpcDebugMessages
+### Fixes
+- Proxy faeBombBullet attack strength changed from HEAVY to NONE, fly and visualType removed
+### Balance
+- Fae Bomb max-charged explosion (3 clones) attack strength changed from HEAVY to MASSIVE
+- Proxy vileStreamStunner damageFactor for Verdant Echo clones reduced from 0.35 to 0.30
+- Verdant Echo clones initial punch knockback increased from MASSIVE to MASSIVE+
+
 ## 0.5.0 (09/22/2026)
 ### New Content
 - New combat art: Vile Stream (Wave Throw Lv.2A)
@@ -15,8 +29,6 @@
 - Fae Bomb damage factors per clone level reduced from 5.0/6.5/8.0/10.0 to 5.0/5.75/6.5/7.5
 - Verdant Echo clones initial lunge speed increased from 250 to 325
 - Proxy vileStreamStunner damageFactor for Verdant Echo clones reduced from 0.5 to 0.35
-
-
 
 ## 0.4.0 (09/18/2026)
 ### New Content

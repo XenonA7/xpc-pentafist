@@ -1,3 +1,7 @@
+## 0.6.2 (09/30/2026)
+### Fixes
+- Fixed Fae Bomber exploding early when shooting with your back against a wall (removed startDist -8 in favor of Lingering Cold recoil technique)
+
 ## 0.6.1 (09/29/2026)
 ### Changes
 - Effect faeBomberPlayerDone now shows when player lands instead of while still in mid-air

@@ -10661,29 +10661,6 @@
             }
           },
           {
-            "align": "BOTTOM",
-            "centralAngle": 0,
-            "angleVary": 0,
-            "startDist": -8,
-            "startDistCollide": "CLOSER",
-            "random": false,
-            "count": 1,
-            "duration": 0,
-            "clockwise": false,
-            "flipLeftFace": 0,
-            "circularArea": false,
-            "uniformDir": 0,
-            "delay": 0,
-            "repeat": false,
-            "type": "SHOOT_PROXY_RANGE",
-            "proxy": "faeBomberInit",
-            "offset": {
-              "x": 0,
-              "y": 0,
-              "z": 12
-            }
-          },
-          {
             "duration": 0.2,
             "align": "BOTTOM",
             "rotateFace": 0,
@@ -10708,7 +10685,35 @@
             "type": "SET_SPEED"
           },
           {
-            "time": 0.10,
+            "time": 0.05,
+            "stopBeforeEdge": true,
+            "type": "MOVE_BACKWARD"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0,
+            "angleVary": 0,
+            "startDist": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "count": 1,
+            "duration": 0,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "faeBomberInit",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
             "stopBeforeEdge": true,
             "type": "MOVE_BACKWARD"
           },

@@ -19,5 +19,26 @@
       "offX": 0,
       "offY": 0
     }
+  },
+  "csPentafistCustom1WaveThrow3A": {
+    "list": [
+      {
+        "replaceTo": "CS_CUSTOM1_PENTAFIST_THROW_SPECIAL3_A",
+        "actionCheckKey": "THROW_SPECIAL3"
+      }
+    ],
+    "element": "WAVE",
+    "activeCondition": "player.entity.name == 'Pentafist4'",
+    "name": {
+      "en_US": "\\i[class-penta] Ricochet Bomber"
+    },
+    "description": {
+      "en_US": "Shoot three piercing explosive projectiles. \\c[3]Verdant Echoes\\c[0] will emit melee pulse attacks."
+    },
+    "icon": {
+      "src": "media/gui/custom-skills/pentafist-bonus-skills.png",
+      "offX": 24,
+      "offY": 0
+    }
   }
 }

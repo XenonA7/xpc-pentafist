@@ -1,3 +1,15 @@
+## 0.7.0 (10/02/2026)
+### New Content
+- New custom skill: Ricochet Bomber (Wave Throw Lv.3)
+### Changes
+- Proxy faeBomberBullet lifetime increased from 1.0 to 1.5
+- Increased size and duration of CIRCLE_BIG particle in effect faeBombExplode3
+- Fae Bomber clones now do their attacks first and sequentially instead of simultaneously with the player
+### Fixes
+- Fixed a balance change from 0.5.0 not being implemented
+### Balance
+- Verdant Echo clones lifetime (while dormant) increased from 16 seconds to 24 seconds
+
 ## 0.6.2 (09/30/2026)
 ### Fixes
 - Fixed Fae Bomber exploding early when shooting with your back against a wall (removed startDist -8 in favor of Lingering Cold recoil technique)

@@ -1,3 +1,10 @@
+## 0.8.0 (10/05/2026)
+### New Content
+- New combat art: Palm Basher (Wave Melee Lv.2A)
+### Fixes
+- Fixed light timing in effect faeBombDummyVanish
+- Removed unused FLASH_COLOR and BLINK_COLOR steps from effect faeBombDummyVanish in favor of FADE_COLOR step
+
 ## 0.7.0 (10/02/2026)
 ### New Content
 - New custom skill: Ricochet Bomber (Wave Throw Lv.3)

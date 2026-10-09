@@ -507,7 +507,7 @@
         },
         "dmgType": "RANGED",
         "stunType": "LOCK",
-        "status": false,
+        "status": true,
         "steps": [
           {
             "type": "SET_PLAYER_ACTION_BLOCK",

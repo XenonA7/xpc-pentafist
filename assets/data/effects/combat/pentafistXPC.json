@@ -340,6 +340,18 @@
             ]
           },
           {
+            "name": "punchWaveFast",
+            "sheet": "PUNCH_WAVE",
+            "time": 0.033,
+            "frames": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
             "name": "punchWaveFinish",
             "sheet": "PUNCH_WAVE",
             "renderMode": "lighter",
@@ -357,6 +369,19 @@
             "sheet": "PUNCH_WAVE",
             "allDirFlipX": true,
             "time": 0.066,
+            "frames": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "name": "punchWaveFastRev",
+            "sheet": "PUNCH_WAVE",
+            "allDirFlipX": true,
+            "time": 0.033,
             "frames": [
               0,
               1,
@@ -1857,6 +1882,52 @@
       },
       {
         "type": "LOOP_END"
+      }
+    ],
+    "punchWaveVileCascade": [
+      {
+        "volume": 1,
+        "global": false,
+        "loop": false,
+        "variance": 0.05,
+        "speed": 1.1,
+        "sound": "media/sound/battle/sweep-short-hi.ogg",
+        "type": "PLAY_SOUND"
+      },
+      {
+        "pScale": {
+          "init": {
+            "x": 1.15,
+            "y": 1.15
+          }
+        },
+        "moveWithTarget": 1,
+        "cancelable": true,
+        "anim": "punchWaveFast",
+        "type": "PLAY_FACE_ANIM"
+      }
+    ],
+    "punchWaveVileCascadeRev": [
+      {
+        "volume": 1,
+        "global": false,
+        "loop": false,
+        "variance": 0.05,
+        "speed": 1.1,
+        "sound": "media/sound/battle/sweep-short-hi.ogg",
+        "type": "PLAY_SOUND"
+      },
+      {
+        "pScale": {
+          "init": {
+            "x": 1.15,
+            "y": 1.15
+          }
+        },
+        "moveWithTarget": 1,
+        "cancelable": true,
+        "anim": "punchWaveFastRev",
+        "type": "PLAY_FACE_ANIM"
       }
     ]
   }

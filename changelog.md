@@ -1,3 +1,15 @@
+## 0.9.0 (10/08/2026)
+### New Content
+- New combat art: Vile Cascade (Wave Throw Lv.3A)
+- Defined new animations spinShortFast and spinShortFastRev
+### Changes
+- Added additional dust effect to final hit of Palm Basher
+### Fixes
+- Fixed Z offset for Ricochet Bomber clone pulse attack
+### Balance
+- Fae Bomb, Fae Spike, and Fae Bomber no longer inflict status
+- Fae Stream, Vile Stream, and Vile Convergence now inflict status
+
 ## 0.8.0 (10/05/2026)
 ### New Content
 - New combat art: Palm Basher (Wave Melee Lv.2A)

@@ -1,3 +1,11 @@
+## 0.10.0 (10/13/2026)
+### New Content
+- New combat art: Drain Punch (Wave Guard Lv.1B)
+### Fixes
+- Fixed lingering shadow on proxy vileCascadeBigProxy death due to killEffect (removed killEffect in favor of showing it manually)
+### Balance
+- Vile Cascade clone attack no longer makes them "killable" with HP factor, they now remain intangible
+
 ## 0.9.0 (10/08/2026)
 ### New Content
 - New combat art: Vile Cascade (Wave Throw Lv.3A)

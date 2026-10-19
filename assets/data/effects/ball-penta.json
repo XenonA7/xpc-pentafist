@@ -160,6 +160,20 @@
         "type": "COPY_SPRITE"
       },
       {
+        "type": "PLAY_ANIM",
+        "anim": "CIRCLE",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        "pAlpha": {
+          "init": 0
+        },
+        "pLight": "M",
+        "particleDuration": 0.1
+      },
+      {
         "time": 0.02,
         "type": "WAIT"
       }

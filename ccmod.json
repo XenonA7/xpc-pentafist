@@ -1,6 +1,6 @@
 {
 	"id": "xpc-pentafist",
-	"version": "0.10.0",
+	"version": "0.10.1",
 	"title": {
 		"en_US": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
 		"de_DE": "XPC Pentafist \\i[class-penta] \\c[1](WIP)\\c[0]",
@@ -27,7 +27,7 @@
 	"authors": ["XenonA7", "HeartLychee"],
 	"prestart": "prestart.js",
 	"dependencies": {
-		"xenons-playable-classes": ">=3.5.4",
+		"xenons-playable-classes": ">=3.6.0",
 		"extendable-severed-heads": ">=1.1.0",
 		"extension-asset-preloader": ">=1.0.0"
 	}

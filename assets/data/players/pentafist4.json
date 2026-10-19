@@ -1193,7 +1193,7 @@
           "thenStep": [
             {
               "type": "SHARE_PROXY_TEMP_TARGET",
-              "group": "faeBomberEchoSmallGroup"
+              "group": "faeSpikeGroup"
             },
             {
               "withElse": false,
@@ -3211,7 +3211,7 @@
                   "type": "FACE_TO_TARGET"
                 },
                 {
-                  "time": 0.25,
+                  "time": 0.5,
                   "type": "WAIT"
                 },
                 {
@@ -6615,7 +6615,7 @@
       "breakType": "NEVER",
       "action": [
         {
-          "factor": 0.40,
+          "factor": 0.80,
           "type": "ABSORB_DAMAGE"
         },
         {
@@ -6780,7 +6780,7 @@
             "element": "WAVE",
             "damageFactor": 0,
             "reverse": false,
-            "guardable": "",
+            "guardable": "NEVER",
             "skillBonus": "",
             "limiter": "SIGNAL",
             "hints": [

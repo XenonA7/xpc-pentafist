@@ -1,3 +1,18 @@
+## 0.10.1 (10/18/2026)
+### General
+- XPC dependency version increased to 3.6.0
+### Changes
+- Drain Punch clones will now wait 0.25 seconds extra before beginning to shoot healing projectiles
+- Increased audio volume for effects drainPunchEchoProxyFX and healingCustomPenta
+- Added pLight to chargedNeutral trial effects
+- Added "guardable": "NEVER" to healing SIGNAL attack in drainPunchEchoProxy (XPC standard that should be followed)
+- HEAL_SPARKLE particle sprites removed from penta-misc.png, moved to hexa-misc.png in XPC
+- Effects drainPunchFly now uses HEAL_SPARKLE effects instead of WAVE_SPARKLE
+### Fixes
+- Fixed Fae Spike target acquisition issue
+### Balance
+- Doubled the healing granted by Drain Punch absorbed damage to be more in-line with other classes
+
 ## 0.10.0 (10/13/2026)
 ### New Content
 - New combat art: Drain Punch (Wave Guard Lv.1B)
